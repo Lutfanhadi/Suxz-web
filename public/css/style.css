@@ -21,3 +21,107 @@
   --color-secondary-900: #02291f;
   --font-primary: "Manrope";
 }
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope";
+}
+
+.container-testimonial{
+  width: 100%;
+  max-width: 114rem;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.text-testimonial{
+  text-align: center;
+}
+
+.paragraf-1{
+  font-size: 20px;
+  margin-bottom: 4;
+  color: var(--color-primary-500);
+}
+
+.paragraf-2{
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.paragraf-3{
+  font-size: 24px;
+  margin-bottom: 57px;
+}
+
+.container-card-testimonial{
+  display: flex;
+  gap: 84px;
+  justify-content: center;
+}
+
+.item-card-testimonial{
+  width: 240px;
+  height: 345px;
+}
+
+.image-jason{
+  z-index: 10;
+  position: absolute;
+  left: 24.5%;
+}
+
+.image-Cassandra{
+  z-index: 10;
+  position: absolute;
+  left: 40.2%;
+}
+.image-Peter{
+  z-index: 10;
+  position: absolute;
+  left: 56%;
+}
+
+.image-jean{
+  z-index: 10;
+  position: absolute;
+  left: 71.75%;
+}
+
+.paragraf-name{
+  margin-top: 80px;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.paragraf-Jobdesk{
+  font-size: 15px;
+  color: #BAB8D2;
+  padding-top: 2px;
+  text-align: center;
+}
+
+
+.paragraf-comment{
+  font-size: 16px;
+  margin: 32px 24px;
+  font-weight: 500;
+  width: 191px;
+  height: 92;
+  text-align: center;
+}
+
+.container-item{
+  width: 240px;
+  height: 305px;
+  z-index: 0;
+  position: absolute;
+  bottom: 35.5%;
+  border: 2px solid #8C82FC;
+  border-radius: 10px;
+}
